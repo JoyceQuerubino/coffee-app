@@ -1,7 +1,8 @@
 import React from 'react';
 import { FlatList } from 'native-base';
-import { ProductItem } from './ProductItem';
 import { CoffeeType } from '@services/coffee/types.coffee';
+import { testID } from '@tests/constants/testId';
+import { ProductItem } from './ProductItem';
 
 interface ProductListProps {
   items: CoffeeType[];
@@ -10,6 +11,7 @@ interface ProductListProps {
 export const ProductList: React.FC<ProductListProps> = ({ items }) => {
   return (
     <FlatList
+      testID={testID.product_list}
       p={4}
       data={items}
       renderItem={({ item }) => (

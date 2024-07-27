@@ -31,6 +31,9 @@
       "@theme/*": [
         "./src/theme/*"
       ],
+      "@tests/*": [
+        "src/tests/*"
+      ]
     }
   }
 }
