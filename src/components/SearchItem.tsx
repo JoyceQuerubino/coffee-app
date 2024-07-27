@@ -5,6 +5,7 @@ import {
   Icon,
   HStack,
 } from "native-base";
+import { testID } from "@tests/constants/testId";
 
 interface SearchItemType {
   setSearchText: (text: string) => void;
@@ -12,7 +13,7 @@ interface SearchItemType {
 
 export const SearchItem = ({ setSearchText }: SearchItemType) => {
   return (
-    <HStack flexDirection="row" alignItems="center" mb={4}>
+    <HStack testID={testID.search_input} flexDirection="row" alignItems="center" mb={4}>
       <Input
         bg="dark.900"
         placeholder="Search"
