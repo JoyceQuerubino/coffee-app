@@ -1,40 +1,37 @@
 <h1 align="center">Coffee App</h1>
 
-![Capa](https://user-images.githubusercontent.com/66806696/134559799-5c8ce36b-031d-48a1-bfb8-9616dfe9e317.png)
+![Capa](https://github.com/user-attachments/assets/d0c06e10-f221-4ee2-bea0-225e267666f5)
 
-## Como a aplicação funciona?
+The Coffee App is a simple coffee listing application created using the concepts of Clean Code, SOLID Principles, Factory Design Pattern, and Triple A (Arrange, Act, Assert) for the implementation of unit and integration tests.
 
-O app deve apresentar todos os personagens da série e permitir um filtro por nome, além disso o usuário pode favoritar os personagens, e clicando em um específico, devem aparecer as informações como: nome, localização e lista de episódios em que ele aparece.
+## Functionalities?
 
-## Funcionalidades?
+The application should fetch coffee data from an API and display a skeleton while the data is loading. On success, it should show a screen with the list of coffees. In case of an error, it should display an error screen. Additionally, the application should allow real-time filtering of the coffees based on the user's search input and include a button to refetch the data, allowing the user to fetch the coffee data again if desired.
 
-- [x] Tela de loading, para carregar os dados da api;
-- [x] Scrooll infinito de todos os personagens;
-- [x] Loading menor, para carregar mais personagens;
-- [x] Filtro de personagens;
-- [x] Adição e remoção de favoritos;
-- [x] Salvar favoritos no AsyncStorage;
-- [x] Tela de splash personalizada;
-- [x] Navegação entre telas;
-- [x] Trazer as informações do personagem e a lista de episódios em que ele aparece;
+## The app screens
 
-## 📱 Preview da aplicação
+![Frame 48095509](https://github.com/user-attachments/assets/871dc8a6-00c7-4938-af18-75e35800da19)
 
-<h1 align="center">
-   <img src="/github/video-apt.gif" alt="Preview app"/>
-</h1>
+# About the design
+- Changed the color and redesigned the components to provide an attractive and intuitive design;
+- Maintained the standards of 16px padding on the page and the refresh button uses 32px horizontal padding;
+
+## Estrutura do app e desenvolvimento
+
 
 ## 🛠 Tecnologias utilizadas
 
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+For the development of this website, I used the following technologies:
 
 - Visual Studio Code;
-- JavaScript;
-- Typescript;
-- React-Native;
-- HTML;
-- CSS;
-- Expo;
+- JavaScript
+- Typescript
+- Native Base
+- React-Query
+- Jest.js
+- Expo
+- Axios
+
 
 ## 🚀 Como testar a aplicação
 
