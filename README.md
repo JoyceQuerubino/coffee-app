@@ -13,11 +13,35 @@ The application should fetch coffee data from an API and display a skeleton whil
 ![Frame 48095509](https://github.com/user-attachments/assets/871dc8a6-00c7-4938-af18-75e35800da19)
 
 # About the design
+
 - Changed the color and redesigned the components to provide an attractive and intuitive design;
 - Maintained the standards of 16px padding on the page and the refresh button uses 32px horizontal padding;
 
 ## Estrutura do app e desenvolvimento
 
+The application is developed using SOLID principles, where components are separated to have single responsibilities (Single Responsibility Principle), which is represented in all components. Additionally, large components are divided into smaller, more specific ones, as can be clearly seen in the component HomeContent.tsx (following the Interface Segregation Principle). I also separated some rules into helpers and hooks to keep the code clean and independent (Dependency Inversion Principle). Furthermore, I did not force components to depend on interfaces they do not use, following the Interface Segregation Principle.
+
+### api
+
+For the API structure, I separated the code into services to facilitate maintenance and ensure single responsibilities. I also divided the code into "scopes" and used the Factory Design Pattern to ease changes in case the consumed API is modified. For security and ease of change, I also added the BASE_URL in the .env file.
+
+I chose to use the Axios library for easy API connection and the React Query library (now called Tanstack) for easy API consumption and cache control, one of the most interesting features of this tool. In the useListCoffees hook, I added a select parameter, which keeps the cached data on the app screen when a refetch is performed and only updates it if there are changes after making the GET request. This way, the user experiences a smooth application flow and avoids unnecessary loading.
+
+### ui
+
+As requested in the challenge, I added the NativeBase library. Since its implementation with Expo SDK 51 is deprecated, it was a bit difficult due to incompatibilities, but after some research, it was simple to implement. I used the components as per the documentation and added a custom theme with the colors I decided to use.
+
+For organization, it's important to note that I separated the Providers into a single component, as I used two libraries that require providers, keeping the configuration in one place.
+
+### tests
+
+For all components and helpers, I applied unit tests, and for the screen, I created an integration test. For organization, I separated all of them into the "tests" folder and used the Jest.js library to develop them, following the Triple A pattern (Arrange, Act, Assert).
+
+(\*\*\* add a print)
+
+A cobertura de testes para componentes, screens e helpers ficou em 100%.
+
+(\*\* add prints testes)
 
 ## 🛠 Tecnologias utilizadas
 
@@ -31,7 +55,6 @@ For the development of this website, I used the following technologies:
 - Jest.js
 - Expo
 - Axios
-
 
 ## 🚀 Como testar a aplicação
 
@@ -58,5 +81,5 @@ Para usar a aplicação
 ---
 
 <p align= center>
-Desenvolvido por <strong>Joyce Querubino</strong>   -----   Me adicione no <a href="https://www.linkedin.com/in/joyce-querubino/"target="_blank">Linkedin</a>
+Developed by <strong>Joyce Querubino</strong>   -----   add me on <a href="https://www.linkedin.com/in/joyce-querubino/"target="_blank">Linkedin</a>
 </p>
