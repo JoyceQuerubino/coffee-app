@@ -73,8 +73,7 @@ npm install
 
 # Run the script
 npx expo start
-# O projeto inciará através do Expo em uma nova aba, e um QR Code estará disponível.
-
+# The project will start through Expo in a new tab, and a QR Code will be available.
 ------------------------------------------------------------------
 download aplication
 - Donwload app 'Expo Go' in your phone
