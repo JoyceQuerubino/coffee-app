@@ -79,10 +79,11 @@ npx expo start
 download aplication
 - Donwload app 'Expo Go' in your phone
 - click 'Scan QR Code' To scan the code below
-- Or copy and paste the link below:: https://expo.dev/accounts/joycequerubino/projects/coffee-app/builds/c821ec0c-f346-44ea-999e-fad83c82c83a
+- Or copy and paste the link below:: https://expo.dev/preview/update?message=public%20app&updateRuntimeVersion=1.0.0&createdAt=2024-07-28T01%3A22%3A54.739Z&slug=exp&projectId=259e0e52-63f9-4f27-a018-e865e5786d3f&group=13a83314-5364-4e49-afbe-ecb48f3c2c82
 ```
 
-<img width="296" alt="Captura de Tela 2024-07-27 às 22 09 15" src="https://github.com/user-attachments/assets/379a2184-037c-4e10-8894-40d74dd184a0">
+<img width="422" alt="Captura de Tela 2024-07-27 às 22 28 06" src="https://github.com/user-attachments/assets/919f7e46-42c8-4845-b2aa-fda8d3d413fc">
+
 
 ---
 
