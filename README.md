@@ -4,7 +4,7 @@
 
 The Coffee App is a simple coffee listing application created using the concepts of Clean Code, SOLID Principles, Factory Design Pattern, and Triple A (Arrange, Act, Assert) for the implementation of unit and integration tests.
 
-## Functionalities?
+## Functionalities
 
 The application should fetch coffee data from an API and display a skeleton while the data is loading. On success, it should show a screen with the list of coffees. In case of an error, it should display an error screen. Additionally, the application should allow real-time filtering of the coffees based on the user's search input and include a button to refetch the data, allowing the user to fetch the coffee data again if desired.
 
@@ -37,13 +37,19 @@ For organization, it's important to note that I separated the Providers into a s
 
 For all components and helpers, I applied unit tests, and for the screen, I created an integration test. For organization, I separated all of them into the "tests" folder and used the Jest.js library to develop them, following the Triple A pattern (Arrange, Act, Assert).
 
-(\*\*\* add a print)
+The test coverage for components, screens, and helpers is 100%, maintaining the quality of the tests.
 
-A cobertura de testes para componentes, screens e helpers ficou em 100%.
+**components**
+<img width="1411" alt="Captura de Tela 2024-07-27 às 19 06 38" src="https://github.com/user-attachments/assets/5015070b-2583-47ba-8f1a-00362937a6ae">
 
-(\*\* add prints testes)
+**helpers**
+<img width="1405" alt="Captura de Tela 2024-07-27 às 19 06 47" src="https://github.com/user-attachments/assets/492cd963-270d-4659-bd97-f5af15423733">
 
-## 🛠 Tecnologias utilizadas
+**screens**
+<img width="1412" alt="Captura de Tela 2024-07-27 às 19 06 58" src="https://github.com/user-attachments/assets/a91ad9e9-8687-4fae-8cff-95a94d9ae932">
+
+
+## 🛠 Technologies used
 
 For the development of this website, I used the following technologies:
 
@@ -56,24 +62,24 @@ For the development of this website, I used the following technologies:
 - Expo
 - Axios
 
-## 🚀 Como testar a aplicação
+## 🚀 How to test the application
 
 ```bash
-# Clone o repositório
+# Clone repository
 git clone https://github.com/JoyceQuerubino/coffee-app
 
-# Instale as dependências
+# Install the dependencies
 npm install
 
-# Execute o script
+# Run the script
 npx expo start
 # O projeto inciará através do Expo em uma nova aba, e um QR Code estará disponível.
 
 ------------------------------------------------------------------
-Para usar a aplicação
-- Baixe o aplicativo 'Expo Go' no seu celular
-- Clique em 'Scan QR Code' para escanear o código abaixo
-- Ou copie e cole o link abaixo: exp://exp.host/@joycequerubino/base-desafio-superlogica
+download aplication
+- Donwload app 'Expo Go' in your phone
+- click 'Scan QR Code' To scan the code below
+- Or copy and paste the link below:: exp://exp.host/@joycequerubino/base-desafio-superlogica
 ```
 
 ![image](https://user-images.githubusercontent.com/66806696/134555976-8dcdaa2f-aec7-4551-986d-d6264fe03345.png)
