@@ -79,10 +79,10 @@ npx expo start
 download aplication
 - Donwload app 'Expo Go' in your phone
 - click 'Scan QR Code' To scan the code below
-- Or copy and paste the link below:: exp://exp.host/@joycequerubino/base-desafio-superlogica
+- Or copy and paste the link below:: https://expo.dev/accounts/joycequerubino/projects/coffee-app/builds/c821ec0c-f346-44ea-999e-fad83c82c83a
 ```
 
-![image](https://user-images.githubusercontent.com/66806696/134555976-8dcdaa2f-aec7-4551-986d-d6264fe03345.png)
+<img width="296" alt="Captura de Tela 2024-07-27 às 22 09 15" src="https://github.com/user-attachments/assets/379a2184-037c-4e10-8894-40d74dd184a0">
 
 ---
 
